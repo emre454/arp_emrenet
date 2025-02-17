@@ -77,6 +77,3 @@ exit       # 🚪 Kabuktan çıkar.
 
 ⚠️ Programın düzgün çalışması için **root** olarak çalıştırılmalıdır.  
 ⚠️ **Scapy** modülünün tüm özellikleri kullanılmaktadır.  
-⚠️ **Etik kullanım amaçlı** geliştirilmiştir, yasa dışı faaliyetlerde kullanılması önerilmez.  
-
-🚀 **Hacking'in etik sınırlar içinde kalması gerektiğini unutmayın!**
