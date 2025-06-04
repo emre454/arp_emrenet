@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ### 🚀 2. Aracı Çalıştırma
 
 ```bash
-sudo python3 emrenet.py
+sudo python3 arp_emrenet.py
 ```
 
 ---
