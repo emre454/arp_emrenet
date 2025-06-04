@@ -269,7 +269,7 @@ def kabuk():
             elif komut[0]=="mac.changer":
                 print("mac.changer <interface> <yeni_mac>")
             elif komut[0]=="dinle.paket":
-                print("** dinle.paket.basla <arayüz> ** → Paket dinlemeyi başlatır. Örnek: dinle.paket.start wlo1")
+                print("** dinle.paket.basla <arayüz> ** → Paket dinlemeyi başlatır. Örnek: dinle.paket.basla wlo1")
                 print("** dinle.paket.durum ** → Paket dinlemenin aktif olup olmadığını kontrol eder.")
             else:
                 print("[+] Yardım Almak İçin Yardım almak istediğiniz komutun adını yazın. Örnek; arp , arp.modem")
