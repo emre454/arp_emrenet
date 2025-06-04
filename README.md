@@ -31,6 +31,12 @@ pip install -r requirements.txt
 sudo python3 emrenet.py
 ```
 
+### 🧪 3. Testleri Çalıştırma
+
+```bash
+pytest
+```
+
 ---
 
 ## 🛠️ Kullanılabilir Komutlar
