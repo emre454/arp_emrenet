@@ -107,6 +107,7 @@ def saldiriyi_baslat(modem_ip, ip_range):
     global packet_counter, active_attack
     print(f"[+] Saldırı başlatılıyor...")
     active_attack = True
+    packet_counter = {"modem": 0, "clients": 0}
     modem_mac, cihazlar = modem_info(modem_ip, ip_range)
     if modem_mac:
         print(f"[+] Modem MAC Adresi: {modem_mac} | Devam Etmek İçin Enter Bas")
@@ -269,7 +270,7 @@ def kabuk():
             elif komut[0]=="mac.changer":
                 print("mac.changer <interface> <yeni_mac>")
             elif komut[0]=="dinle.paket":
-                print("** dinle.paket.basla <arayüz> ** → Paket dinlemeyi başlatır. Örnek: dinle.paket.start wlo1")
+                print("** dinle.paket.basla <arayüz> ** → Paket dinlemeyi başlatır. Örnek: dinle.paket.basla wlo1")
                 print("** dinle.paket.durum ** → Paket dinlemenin aktif olup olmadığını kontrol eder.")
             else:
                 print("[+] Yardım Almak İçin Yardım almak istediğiniz komutun adını yazın. Örnek; arp , arp.modem")
